@@ -1,0 +1,12 @@
+{
+  "tpl": {
+    "ali-mina": {
+      "url": "http://app-api-test.51youdian.com:9033/plpl-source-project/fs-alipay-mina-cli.git",
+      "branch": "master"
+    },
+    "wechat-mina": {
+      "url": "http://app-api-test.51youdian.com:9033/plpl-source-project/fs-wechat-mina-cli.git",
+      "branch": "master"
+    }
+  }
+}

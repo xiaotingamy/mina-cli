@@ -1,0 +1,25 @@
+{
+  "name": "fs-ali-mina-project-cli",
+  "version": "1.0.0",
+  "description": "a template for aliminiprogram",
+  "main": "index.js",
+  "bin": {
+    "mina-cli": "index.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "mina",
+    "wechat",
+    "ali"
+  ],
+  "author": "amyGuo",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^7.2.0"
+  }
+}
