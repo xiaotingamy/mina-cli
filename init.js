@@ -8,8 +8,7 @@ const chalk = require('chalk')
 module.exports = () => {
  co(function *() {
     // 处理用户输入
-    // let tplName = yield prompt('Template name (you can input one like react, vue, angular): ')
-    let tplName = 'mina'
+    let tplName = yield prompt('Template name (you can input one like ali-mina, wechat-mina): ')
     let projectName = yield prompt('Project name: ')
     let gitUrl, branch
     if (!config.tpl[tplName]) {
